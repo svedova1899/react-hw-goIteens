@@ -6,14 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import Greeting from './hw/components/Greeting';
 import Messange from './hw/components/Messange';
 import Button from './hw/components/Button';
+import Profile from './hw/components-jsx/profile/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Greeting/>
+    {/* <App /> */}
+    {/* <Greeting/>
     <Messange/>
-    <Button/>
+    <Button/> */}
+    <Profile/>
   </React.StrictMode>
 );
 
