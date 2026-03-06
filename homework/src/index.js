@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Greeting from './hw/components/Greeting';
-import Messange from './hw/components/Messange';
-import Button from './hw/components/Button';
-import Profile from './hw/components-jsx/profile/Profile';
+// import Greeting from './hw/components/Greeting';
+// import Messange from './hw/components/Messange';
+// import Button from './hw/components/Button';
+// import Profile from './hw/components-jsx/profile/User';
+import User from './hw/components-jsx/profile/User';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
     {/* <Greeting/>
     <Messange/>
     <Button/> */}
-    <Profile/>
+    {/* <User/> */}
   </React.StrictMode>
 );
 

@@ -1,7 +1,7 @@
 import React from "react"
-import user from "./user.json"
+// import user from "./Profile.json"
 
-export default function Profile() {
+export default function User() {
   return (
     <div className="card">
       <div className="description">
